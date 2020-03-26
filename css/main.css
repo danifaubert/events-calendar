@@ -1,5 +1,5 @@
 html {
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
 }
 
 th {
@@ -8,10 +8,15 @@ th {
 
 .day {
   width: 10em;
+  color: #333;
 }
 
 td {
   width: 10em;
+}
+
+th, td {
+  border-bottom: 2px solid #ccc;
 }
 
 .event-space {
